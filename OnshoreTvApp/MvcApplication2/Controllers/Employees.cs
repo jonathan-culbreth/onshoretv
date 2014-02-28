@@ -4,23 +4,29 @@ using System.Linq;
 using System.Net;
 using System.Net.Http;
 using System.Web.Http;
+using MvcApplication2.Models;
 
 namespace MvcApplication2.Controllers
 {
     public class Employees : ApiController
     {
+        static readonly IEmployeeRepository repository = new EmployeeRepository();
         // GET api/employees
-        public IEnumerable<string> Get()
+        public IEnumerable<Employee> Get()
         {
-            return new string[] { "value1", "value2" };
+            return repository.GetAll();
         }
 
         // GET api/employees/5
-        public string Get(int id)
+        public Employee GetEmployee(int id)
         {
-            return "value";
+            Employee item = repository.Get(id);
+            if (item == null)
+            {
+                throw new HttpResponseException(HttpStatusCode.NotFound);
+            }
+            return item;
         }
-
         // POST api/employees
         public void Post([FromBody]string value)
         {
