@@ -1,0 +1,30 @@
+.main {
+    background: url('../images/xmasbg.jpg');
+    background-size: cover;
+}
+
+body {
+    text-align: center;
+}
+
+h1 {
+    font-size: 35px;
+    font-weight: normal;
+    letter-spacing: 16px;
+    margin-bottom: 0px;
+}
+
+h2 {
+    font-family: "Dancing Script";
+    font-size: 70px;
+    font-weight: normal;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+h3 {
+    font-size: 20px;
+    font-weight: normal;
+    letter-spacing: 12.5px;
+    margin-top: 0px;
+}

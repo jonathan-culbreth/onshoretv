@@ -1,0 +1,25 @@
+$('#macon')
+    .css('position','absolute')
+    .css('top','110px')
+    .css('left','50px')
+    .fadeTo(3000,1);
+$('#maconDesc')
+    .hide()
+    .css('position','absolute')
+    .css('top','150px')
+    .css('left','330px')
+    .delay(2500)
+    .show('slide', 2500);
+$('#glennville')
+    .delay(2000)
+    .css('position','absolute')
+    .css('top','400px')
+    .css('right','50px')
+    .fadeTo(3000,1);
+$('#glennvilleDesc')
+    .hide()
+    .css('position','absolute')
+    .css('top','470px')
+    .css('right','400px')
+    .delay(4500)
+    .show('slide', {direction: 'right'}, 2500);
