@@ -17,7 +17,7 @@ angular.module('onshoretvApp', [
         controller: 'BirthDayCtrl'
       })
       .when('/view/2', {
-          templateUrl: 'static/birthdays.html',
+          templateUrl: 'static/birthday1.html',
           controller: 'BirthDayCtrl'
       })
      .when('/view/3', {
@@ -43,7 +43,35 @@ angular.module('onshoretvApp', [
      .when('/view/8', {
          templateUrl: 'static/defineScrum.html',
            controller: 'BirthDayCtrl'
+     })
+     .when('/view/9', {
+          templateUrl: 'static/newJLL1.html',
+          controller: 'BirthDayCtrl'
+     })
+     .when('/view/10', {
+         templateUrl: 'static/newJLL2.html',
+         controller: 'JLLNetCtrl'
+     })
+     .when('/view/11', {
+         templateUrl: 'static/newPanera1.html',
+         controller: 'BirthDayCtrl'
       })
+     .when('/view/12', {
+         templateUrl: 'static/newPanera2.html',
+         controller: 'BirthDayCtrl'
+     })
+        .when('/view/13', {
+            templateUrl: 'static/birthday2.html',
+            controller: 'BirthDayCtrl'
+        })
+        .when('/view/14', {
+            templateUrl: 'static/birthday3.html',
+            controller: 'BirthDayCtrl'
+        })
+        .when('/view/15', {
+            templateUrl: 'static/birthday4.html',
+            controller: 'BirthDayCtrl'
+        })
       .otherwise({
         redirectTo: '/'
       });

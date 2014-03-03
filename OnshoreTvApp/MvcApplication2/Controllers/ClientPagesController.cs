@@ -1,7 +1,7 @@
 ﻿using MvcApplication2.Models;
 using System;
 using System.Collections.Generic;
-using System.Globalization;
+using System.Configuration;
 using System.Linq;
 using System.Net;
 using System.Net.Http;
@@ -9,22 +9,23 @@ using System.Web.Http;
 
 namespace MvcApplication2.Controllers
 {
-    public class ValuesController : ApiController
+    public class ClientPagesController : ApiController
     {
-        // GET api/values
         private OnshoreEntities db = new OnshoreEntities();
-
+        // GET api/clientpages
         public IEnumerable<string> Get()
         {
             return new string[] { "value1", "value2" };
         }
 
-        // GET api/values/5
-        public string Get(int id)
-        { 
+        // GET api/clientpages/5
+        public string[] Get(string id)
+        {
             bool found = false;
             int i = 1;
-            DateTime today = DateTime.Now; ;
+            int k = 0;
+            string[] names = new string[ConfigurationManager.ConnectionStrings.Count]; ;
+            names[k] = "none";
             while (found == false)
             {
                 Employee employee = db.Employees.Find(i);
@@ -32,28 +33,27 @@ namespace MvcApplication2.Controllers
                 {
                     break;
                 }
-                DateTime DOB = Convert.ToDateTime(employee.Date_of_Birth_.ToString());
-               
-                if (DOB.ToString("MMM, d") == today.ToString("MMM, d"))
-                {
-                    return employee.Name + "  " + DOB.ToString("MMM, d");
-                }
+                //if (employee.Client == id)
+                //{
+                    names[k] = employee.Name;
+                    k++;
+                //}
                 i++;
             }
-            return "No birthdays for " + today.ToString("MMM, d");
+            return names;
         }
 
-        // POST api/values
+        // POST api/clientpages
         public void Post([FromBody]string value)
         {
         }
 
-        // PUT api/values/5
+        // PUT api/clientpages/5
         public void Put(int id, [FromBody]string value)
         {
         }
 
-        // DELETE api/values/5
+        // DELETE api/clientpages/5
         public void Delete(int id)
         {
         }

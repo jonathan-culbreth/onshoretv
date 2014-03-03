@@ -148,8 +148,9 @@
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="App_Start\WebApiConfig.cs" />
+    <Compile Include="Controllers\ClientPagesController.cs" />
     <Compile Include="Controllers\Default1Controller.cs" />
-    <Compile Include="Controllers\Employees.cs" />
+    <Compile Include="Controllers\EmployeesController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\ValuesController.cs" />
     <Compile Include="Global.asax.cs">
@@ -176,10 +177,26 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="App_Data\Onshore.mdf" />
+    <Content Include="App_Data\Onshore.mdf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
     <Content Include="App_Data\Onshore_log.ldf">
       <DependentUpon>Onshore.mdf</DependentUpon>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
+    <Content Include="Content\agileprinciples.css" />
+    <Content Include="Content\birthday.css" />
+    <Content Include="Content\definescrum.css" />
+    <Content Include="Content\leaders.css" />
+    <Content Include="Content\main.css" />
+    <Content Include="Content\malwareprevention.css" />
+    <Content Include="Content\newJLL.css" />
+    <Content Include="Content\newPanera.css" />
+    <Content Include="Content\offices.css" />
+    <Content Include="Content\panera.css" />
+    <Content Include="Content\passSec.css" />
+    <Content Include="Content\portableelectronics.css" />
+    <Content Include="Content\security.css" />
     <Content Include="Content\themes\base\images\ui-bg_flat_0_aaaaaa_40x100.png" />
     <Content Include="Content\themes\base\images\ui-bg_flat_75_ffffff_40x100.png" />
     <Content Include="Content\themes\base\images\ui-bg_glass_55_fbf9ee_1x400.png" />
@@ -234,6 +251,7 @@
     <Content Include="Content\themes\base\minified\jquery.ui.slider.min.css" />
     <Content Include="Content\themes\base\minified\jquery.ui.tabs.min.css" />
     <Content Include="Content\themes\base\minified\jquery.ui.theme.min.css" />
+    <Content Include="Content\xmas.css" />
     <Content Include="favicon.ico" />
     <Content Include="Global.asax" />
     <EntityDeploy Include="Models\Employees.edmx">
@@ -270,6 +288,10 @@
     <Content Include="Scripts\knockout-2.2.0.debug.js" />
     <Content Include="Scripts\knockout-2.2.0.js" />
     <Content Include="Scripts\modernizr-2.6.2.js" />
+    <Content Include="static\newJLL1.html" />
+    <Content Include="static\newJLL2.html" />
+    <Content Include="static\newPanera1.html" />
+    <Content Include="static\newPanera2.html" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
