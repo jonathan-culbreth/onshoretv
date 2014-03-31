@@ -23,11 +23,13 @@ namespace MvcApplication2.Controllers
         }
 
         // GET api/Default3/5
-        public string GetEmployee(int id)
+        public string[] GetEmployee(int id)
         {
             bool found = false;
             int i = 1;
             DateTime today = DateTime.Now; ;
+            List<string> names = new List<string>();
+            int k = 0;
             while (found == false)
             {
                 Employee employee = db.Employees.Find(i);
@@ -37,13 +39,14 @@ namespace MvcApplication2.Controllers
                 }
                 DateTime DOB = Convert.ToDateTime(employee.Date_of_Birth_.ToString());
 
-                if (DOB.ToString("MMM, d") == today.ToString("MMM, d"))
+                if (DOB.ToString("MMM") == today.ToString("MMM"))
                 {
-                    return employee.Name + "  " + DOB.ToString("MMM, d");
+                    names.Add(employee.Name + "  " + DOB.ToString("MMM, d"));
+                    k++;
                 }
                 i++;
             }
-            return "No birthdays for " + today.ToString("MMM, d");
+            return names.ToArray();
         }
 
         // PUT api/Default3/5

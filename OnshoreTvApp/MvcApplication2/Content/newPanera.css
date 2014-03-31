@@ -10,9 +10,10 @@ body {
 
 #welcomeStart, #welcomeEnd {
 	font-family: "Sail";
-	font-size: 50px;
+	font-size: 55px;
 	color: white;
 	text-align: center;
+    margin-top:60px;
 }
 
 #teamType {
@@ -22,6 +23,7 @@ body {
 	text-decoration: underline;
 	color: white;
 	text-align: center;
+    margin-top:70px;
 }
 
 #names {

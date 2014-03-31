@@ -9,6 +9,7 @@ body {
     color: white;
     text-align: center;
     opacity: 1;
+
 }
 
 #sc {
@@ -28,46 +29,51 @@ body {
 
 .bio {
     height: 600px;
-    width: 429px;
-    padding: 5px;
-    border: 1px solid rgba(225,225,255,0.1);
 }
 
 #shane {
     float: left;
+    width: 150%;
+	margin: auto;
+	font-family: "Open Sans";
+	font-weight: 600;
+	text-align: left;
 }
 
 #chuck {
     float: right;
 }
+#shanepic{
+     width: 375px;
+     height: 250px;
 
+}
 .bio-short {
     height: 250px;
     width: 231px;
-    padding: 5px;
+    padding: 10px;
     border: 1px solid rgba(225,225,255,0.1);
     margin: auto;
 }
 
 .name {
     font-family: "Oswald";
-    font-size: 15px;
+    font-size: 35px;
     color: white;
-    text-align: left;
+    text-decoration:underline;
 }
 
 .title {
     font-family: "Open Sans";
-    font-size: 9px;
 }
 
 .about {
-    font-family: "Open Sans";
-    font-size: 14px;
-    line-height: 15.5px;
+    float: left;
+    width: 75%;
+    font-size: 30px;
+ 	margin: auto;
     color: white;
-    text-align: justify;
-    text-indent: 40px;
-    margin-top: 5px;
-    padding: 0px 5px 0px 5px;
+	font-family: "Open Sans";
+	font-weight: 600;
+    padding: 0px 10px 0px 10px;
 }

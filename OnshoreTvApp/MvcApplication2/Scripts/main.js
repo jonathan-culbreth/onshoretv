@@ -7,7 +7,7 @@ $(document).ready(function () {
 
 var pictures = ['.jpg'];
 var videos = [];
-var links = ["newJLL1.html", "newJLL2.html", "newPanera1.html", "newPanera2.html", "leaders.html", "offices.html", "agileprinciples.html", "definescrum.html", "malwareprevention.html", "passSec.html", "portableelectronics.html"];
+var links = [ "birthday1.html", "newPanera.html", "leaders.html", "leader2.html", "practiceManagersMO.html", "success.html", "missionStatement.html", "purpose.html", "whatWeAre.html", "howWeDoIt.html", "whatWeDo.html", "offices.html", "glennvilleOffice.html", "AltantaOffice.html", "agileprinciples.html", "definescrum.html", "malwareprevention.html", "passSec.html", "portableelectronics.html"];
 var counter = 0;
 
 function timedRefresh(timeoutPeriod) {

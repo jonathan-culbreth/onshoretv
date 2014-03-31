@@ -7,7 +7,7 @@ function centerContainer() {
   var ch = $('.container').height();
   
   $('.container').css({
-    'margin-top': (h/2-ch/2).toString() + "px",
+    'margin-top': "35px",
     'margin-left': (w/2-cw/2).toString() + "px"
   })
 }

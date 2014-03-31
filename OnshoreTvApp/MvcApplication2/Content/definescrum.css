@@ -1,19 +1,17 @@
 body{
 	background: URL("../images/blackboard.jpg") no-repeat;
 	background-position: center;
-	background-size: cover;
+	background-size: 100% 100%;
 	font-family: schoolbell;
 	color: #FFFFFF;
 }
 
 .subject	{
-    text-align:center;
 	padding-top: 125px;
 	font-size: 60px;
 }
 
 #term{
-    text-align:center;
 	margin-top: 75px;
 }
 
@@ -25,7 +23,7 @@ body{
 }
 
 .content{
-	font-size: 30px;
+	font-size: 40px;
 }
 
 ol{

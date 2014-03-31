@@ -185,8 +185,11 @@
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
     <Content Include="Content\agileprinciples.css" />
+    <Content Include="Content\AtlantaOffice.css" />
     <Content Include="Content\birthday.css" />
     <Content Include="Content\definescrum.css" />
+    <Content Include="Content\howWeDoIt.css" />
+    <Content Include="Content\leaders %282%29.css" />
     <Content Include="Content\leaders.css" />
     <Content Include="Content\main.css" />
     <Content Include="Content\malwareprevention.css" />
@@ -196,7 +199,9 @@
     <Content Include="Content\panera.css" />
     <Content Include="Content\passSec.css" />
     <Content Include="Content\portableelectronics.css" />
+    <Content Include="Content\purpose.css" />
     <Content Include="Content\security.css" />
+    <Content Include="Content\success.css" />
     <Content Include="Content\themes\base\images\ui-bg_flat_0_aaaaaa_40x100.png" />
     <Content Include="Content\themes\base\images\ui-bg_flat_75_ffffff_40x100.png" />
     <Content Include="Content\themes\base\images\ui-bg_glass_55_fbf9ee_1x400.png" />
@@ -258,6 +263,7 @@
       <Generator>EntityModelCodeGenerator</Generator>
       <LastGenOutput>Employees.Designer.cs</LastGenOutput>
     </EntityDeploy>
+    <Content Include="Images\DataServives_Icon.png" />
     <Content Include="Models\Model1.Context.tt">
       <Generator>TextTemplatingFileGenerator</Generator>
       <DependentUpon>Employees.edmx</DependentUpon>
@@ -272,6 +278,7 @@
       <LastGenOutput>Model1.cs</LastGenOutput>
     </Content>
     <None Include="Scripts\jquery-1.8.2.intellisense.js" />
+    <Content Include="Scripts\app.js" />
     <Content Include="Scripts\birthday.js" />
     <Content Include="Scripts\test.js" />
     <Content Include="Scripts\jquery-1.8.2.js" />
@@ -288,10 +295,31 @@
     <Content Include="Scripts\knockout-2.2.0.debug.js" />
     <Content Include="Scripts\knockout-2.2.0.js" />
     <Content Include="Scripts\modernizr-2.6.2.js" />
+    <Content Include="Scripts\transition.js" />
+    <Content Include="static\agileprinciples.html" />
+    <Content Include="static\AltantaOffice.html" />
+    <Content Include="static\birthday.html" />
+    <Content Include="static\clients.html" />
+    <Content Include="static\generalManagers.html" />
+    <Content Include="static\glennvilleOffice.html" />
+    <Content Include="static\howWeDoIt.html" />
+    <Content Include="static\index.html" />
+    <Content Include="static\JLLwelcome.html" />
+    <Content Include="static\missionStatement.html" />
+    <Content Include="static\newJLL.html" />
     <Content Include="static\newJLL1.html" />
     <Content Include="static\newJLL2.html" />
+    <Content Include="static\newPanera.html" />
     <Content Include="static\newPanera1.html" />
     <Content Include="static\newPanera2.html" />
+    <Content Include="static\panera.html" />
+    <Content Include="static\practiceManagersMO.html" />
+    <Content Include="static\purpose.html" />
+    <Content Include="static\success.html" />
+    <Content Include="static\ticker.html" />
+    <Content Include="static\whatWeAre.html" />
+    <Content Include="static\whatWeDo.html" />
+    <Content Include="static\xmasparty.html" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
@@ -319,10 +347,10 @@
     <Content Include="static\offices.html" />
     <Content Include="static\passSec.html" />
     <Content Include="static\portableelectronics.html" />
-    <Content Include="static\agilePrinciples.html" />
     <Content Include="static\birthdays.html" />
     <Content Include="static\defineScrum.html" />
-    <Content Include="static\main.cshtml" />
+    <Content Include="static\main.html" />
+    <Content Include="static\Web.config" />
     <None Include="Views\Home\Index.cshtml" />
     <Content Include="Views\Shared\Error.cshtml" />
     <Content Include="static\main2.html" />

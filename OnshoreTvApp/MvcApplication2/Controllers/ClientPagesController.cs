@@ -24,7 +24,7 @@ namespace MvcApplication2.Controllers
             bool found = false;
             int i = 1;
             int k = 0;
-            string[] names = new string[ConfigurationManager.ConnectionStrings.Count]; ;
+            string[] names = new string[30];
             names[k] = "none";
             while (found == false)
             {
@@ -33,11 +33,11 @@ namespace MvcApplication2.Controllers
                 {
                     break;
                 }
-                //if (employee.Client == id)
-                //{
+                if (employee.Client == id)
+                {
                     names[k] = employee.Name;
                     k++;
-                //}
+                }
                 i++;
             }
             return names;

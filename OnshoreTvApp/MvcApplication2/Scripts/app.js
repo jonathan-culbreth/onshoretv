@@ -4,74 +4,90 @@ angular.module('onshoretvApp', [
   'ngCookies',
   'ngResource',
   'ngSanitize',
-  'ngRoute'
+  'ngRoute',
 ])
   .config(function ($routeProvider) {
     $routeProvider
       .when('/', {
           templateUrl: 'static/main2.html',
-        controller: 'BirthDayCtrl'
+          controller: 'DefaultCtrl'
       })
       .when('/view/1', {
           templateUrl: 'static/agilePrinciples.html',
-        controller: 'BirthDayCtrl'
+          controller: 'DefaultCtrl'
       })
       .when('/view/2', {
-          templateUrl: 'static/birthday1.html',
+          templateUrl: 'static/birthdays.html',
           controller: 'BirthDayCtrl'
       })
      .when('/view/3', {
          templateUrl: 'static/malwarePrevention.html',
-        controller: 'BirthDayCtrl'
+         controller: 'DefaultCtrl'
      })
      .when('/view/4', {
          templateUrl: 'static/offices.html',
-        controller: 'BirthDayCtrl'
+         controller: 'DefaultCtrl'
      })
      .when('/view/5', {
          templateUrl: 'static/portableelectronics.html',
-        controller: 'BirthDayCtrl'
+         controller: 'DefaultCtrl'
      })
      .when('/view/6', {
          templateUrl: 'static/passSec.html',
-        controller: 'BirthDayCtrl'
+         controller: 'DefaultCtrl'
      })
      .when('/view/7', {
          templateUrl: 'static/main2.html',
-          controller: 'BirthDayCtrl'
+         controller: 'DefaultCtrl'
      })
      .when('/view/8', {
          templateUrl: 'static/defineScrum.html',
-           controller: 'BirthDayCtrl'
+         controller: 'DefaultCtrl'
      })
      .when('/view/9', {
-          templateUrl: 'static/newJLL1.html',
-          controller: 'BirthDayCtrl'
+          templateUrl: 'static/glennvilleOffice.html',
+          controller: 'DefaultCtrl'
      })
      .when('/view/10', {
-         templateUrl: 'static/newJLL2.html',
-         controller: 'JLLNetCtrl'
+         templateUrl: 'static/success.html',
+         controller: 'DefaultCtrl'
      })
      .when('/view/11', {
-         templateUrl: 'static/newPanera1.html',
-         controller: 'BirthDayCtrl'
+         templateUrl: 'static/newPanera.html',
+         controller: 'DefaultCtrl'
       })
      .when('/view/12', {
-         templateUrl: 'static/newPanera2.html',
-         controller: 'BirthDayCtrl'
+         templateUrl: 'static/howWeDoIt.html',
+         controller: 'DefaultCtrl'
      })
         .when('/view/13', {
-            templateUrl: 'static/birthday2.html',
-            controller: 'BirthDayCtrl'
+            templateUrl: 'static/practiceManagersMO.html',
+            controller: 'DefaultCtrl'
         })
         .when('/view/14', {
-            templateUrl: 'static/birthday3.html',
-            controller: 'BirthDayCtrl'
+            templateUrl: 'static/whatWeAre.html',
+            controller: 'DefaultCtrl'
         })
         .when('/view/15', {
-            templateUrl: 'static/birthday4.html',
-            controller: 'BirthDayCtrl'
+            templateUrl: 'static/whatWeDo.html',
+            controller: 'DefaultCtrl'
         })
+        .when('/view/16', {
+            templateUrl: 'static/main.html',
+            controller: 'DefaultCtrl'
+        })
+        .when('/view/17', {
+            templateUrl: 'static/AltantaOffice.html',
+            controller: 'DefaultCtrl'
+        })
+        .when('/view/18', {
+            templateUrl: 'static/missionStatement.html',
+            controller: 'DefaultCtrl'
+        })
+             .when('/view/19', {
+                 templateUrl: 'static/purpose.html',
+                 controller: 'DefaultCtrl'
+             })
       .otherwise({
         redirectTo: '/'
       });
