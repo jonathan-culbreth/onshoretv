@@ -12,6 +12,7 @@
 }
 
 .polaroid {
+    text-align:center;
     display: inline-block;
     background: #ffffff;
     padding: 10px;

@@ -1,18 +1,22 @@
 body{
 	background: URL("../images/blackboard.jpg") no-repeat;
 	background-position: center;
-	background-size: 100% 100%;
+	background-size: cover;
 	font-family: schoolbell;
 	color: #FFFFFF;
 }
 
+
 .subject	{
-	padding-top: 125px;
+	padding-top: 150px;
 	font-size: 60px;
+    text-align:center;
 }
 
 #term{
 	margin-top: 75px;
+    text-align:center;
+
 }
 
 #definition{
@@ -20,6 +24,7 @@ body{
 	margin-left: auto;
 	margin-right: auto;
 	width: 75%;
+    padding-bottom: 405px;
 }
 
 .content{

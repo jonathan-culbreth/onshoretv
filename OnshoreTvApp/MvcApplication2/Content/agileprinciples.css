@@ -1,7 +1,6 @@
 body{
 	background: URL("../images/blackboard.jpg") no-repeat;
-	background-position: center;
-	background-size: 100% 100%;
+	background-size: cover;
 	font-family: schoolbell;
 	color: #FFFFFF;
 }
@@ -9,6 +8,7 @@ body{
 .subject	{
 	padding-top: 125px;
 	font-size: 42px;
+    text-align:center;
 }
 
 #term{

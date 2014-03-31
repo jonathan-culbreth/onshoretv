@@ -27,14 +27,14 @@ body {
 }
 
 #macon {
-    transform:rotate(-7deg);
-    -ms-transform:rotate(-7deg);
+    transform:rotate(-1deg);
+    -ms-transform:rotate(-1deg);
     -webkit-transform:rotate(-1deg);
 }
 
 #glennville {
-    transform:rotate(7deg);
-    -ms-transform:rotate(7deg);
+    transform:rotate(1deg);
+    -ms-transform:rotate(1deg);
     -webkit-transform:rotate(1deg);
 }
 

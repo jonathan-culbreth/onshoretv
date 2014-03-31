@@ -27,6 +27,6 @@ $('#Travis')
     .hide()
     .css('position', 'absolute')
     .css('top', '300px')
-    .css('right', '470px')
+    .css('right', '700px')
     .delay(5000)
     .fadeTo(3000, 1);
