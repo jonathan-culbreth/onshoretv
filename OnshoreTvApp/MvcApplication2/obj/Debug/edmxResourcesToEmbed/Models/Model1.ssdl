@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="OnshoreModel.Store" Alias="Self" Provider="System.Data.SqlClient" ProviderManifestToken="2008" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityContainer Name="OnshoreModelStoreContainer">
+    <EntitySet Name="Clients" EntityType="OnshoreModel.Store.Clients" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="Employees" EntityType="OnshoreModel.Store.Employees" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="Events" EntityType="OnshoreModel.Store.Events" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="Pages" EntityType="OnshoreModel.Store.Pages" store:Type="Tables" Schema="dbo" />
+  </EntityContainer>
+  <EntityType Name="Clients">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" Nullable="false" />
+    <Property Name="Name" Type="varchar" MaxLength="50" />
+    <Property Name="Contact" Type="varchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="Employees">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" Nullable="false" />
+    <Property Name="Name" Type="varchar" MaxLength="50" />
+    <Property Name="Date of Birth " Type="date" />
+    <Property Name="Hire Date" Type="date" />
+    <Property Name="Client" Type="varchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="Events">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" Nullable="false" />
+    <Property Name="Date" Type="date" />
+    <Property Name="Holder" Type="varchar" MaxLength="50" />
+    <Property Name="Description" Type="varchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="Pages">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" Nullable="false" />
+    <Property Name="Viewed" Type="smallint" />
+  </EntityType>
+</Schema>

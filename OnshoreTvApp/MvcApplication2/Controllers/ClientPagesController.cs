@@ -11,7 +11,7 @@ namespace MvcApplication2.Controllers
 {
     public class ClientPagesController : ApiController
     {
-        private OnshoreEntities db = new OnshoreEntities();
+        private OnshoreEntities3 db = new OnshoreEntities3();
         // GET api/clientpages
         public IEnumerable<string> Get()
         {

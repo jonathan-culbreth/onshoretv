@@ -14,7 +14,7 @@ namespace MvcApplication2.Controllers
 {
     public class EmployeesController : ApiController
     {
-        private OnshoreEntities db = new OnshoreEntities();
+        private OnshoreEntities3 db = new OnshoreEntities3();
 
         // GET api/Default3
         public IEnumerable<Employee> GetEmployees()

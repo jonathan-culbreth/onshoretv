@@ -37,7 +37,7 @@ angular.module('onshoretvApp')
               }
           }
           var a = Math.floor((Math.random() * 19) + 1)
-          var time = ((data.length+1) * (6000))
+          var time = (1000+((data.length) * (6000)))
           window.setTimeout(function () { window.location.replace("http://localhost:63705/#/view/" + parseInt(a)) }, time);
 
       });

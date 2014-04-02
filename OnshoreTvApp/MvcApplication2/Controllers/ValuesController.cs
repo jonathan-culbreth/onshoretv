@@ -12,7 +12,7 @@ namespace MvcApplication2.Controllers
     public class ValuesController : ApiController
     {
         // GET api/values
-        private OnshoreEntities db = new OnshoreEntities();
+        private OnshoreEntities3 db = new OnshoreEntities3();
 
         public IEnumerable<string> Get()
         {
