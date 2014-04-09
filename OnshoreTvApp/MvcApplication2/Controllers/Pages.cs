@@ -20,8 +20,23 @@ namespace MvcApplication2.Controllers
         // GET api/<controller>/5
         public bool Get(int id)
         {
-            
-            return true;
+            Page page = db.Pages.Find(id);
+            if (page.Viewed == 1)
+            {
+                checkAll();
+                return true;
+            }
+            else
+            {
+                page.Viewed = 0;
+                db.SaveChanges();
+            }
+            return false;
+        }
+        public void checkAll()
+        {
+            //Pages[] pages = db.Pages.Find(1);
+
         }
 
         // POST api/<controller>

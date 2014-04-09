@@ -212,6 +212,7 @@
     <Content Include="Content\purpose.css" />
     <Content Include="Content\security.css" />
     <Content Include="Content\success.css" />
+    <Content Include="Content\SweetOnion.css" />
     <Content Include="Content\themes\base\images\ui-bg_flat_0_aaaaaa_40x100.png" />
     <Content Include="Content\themes\base\images\ui-bg_flat_75_ffffff_40x100.png" />
     <Content Include="Content\themes\base\images\ui-bg_glass_55_fbf9ee_1x400.png" />
@@ -269,6 +270,7 @@
     <Content Include="Content\xmas.css" />
     <Content Include="favicon.ico" />
     <Content Include="Global.asax" />
+    <Content Include="Images\BiLoWinnDixie.jpg" />
     <Content Include="Images\DataServives_Icon.png" />
     <EntityDeploy Include="Models\Model1.edmx">
       <Generator>EntityModelCodeGenerator</Generator>
@@ -308,6 +310,7 @@
     <Content Include="Scripts\transition.js" />
     <Content Include="static\agileprinciples.html" />
     <Content Include="static\AltantaOffice.html" />
+    <Content Include="static\BiLo.html" />
     <Content Include="static\birthday.html" />
     <Content Include="static\clients.html" />
     <Content Include="static\generalManagers.html" />
@@ -326,6 +329,7 @@
     <Content Include="static\practiceManagersMO.html" />
     <Content Include="static\purpose.html" />
     <Content Include="static\success.html" />
+    <Content Include="static\SweetOnion.html" />
     <Content Include="static\ticker.html" />
     <Content Include="static\whatWeAre.html" />
     <Content Include="static\whatWeDo.html" />

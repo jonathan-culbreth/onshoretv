@@ -88,6 +88,14 @@ angular.module('onshoretvApp', [
                  templateUrl: 'static/purpose.html',
                  controller: 'DefaultCtrl'
              })
+          .when('/view/20', {
+              templateUrl: 'static/BiLo.html',
+              controller: 'DefaultCtrl'
+          })
+          .when('/view/21', {
+              templateUrl: 'static/SweetOnion.html',
+              controller: 'DefaultCtrl'
+          })
       .otherwise({
         redirectTo: '/'
       });
