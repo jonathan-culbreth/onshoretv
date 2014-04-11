@@ -12,4 +12,8 @@ angular.module('onshoretvApp')
      },16000);
      var a = Math.floor((Math.random() *19) + 1);
      window.setTimeout(function () { window.location.replace("http://localhost:63705/#/view/" + parseInt(a)) }, 20000);
+     timedRefresh(300000);
+     function timedRefresh(timeoutPeriod) {
+         setTimeout("location.reload(true);", timeoutPeriod);
+     }
   });
