@@ -19,6 +19,7 @@ angular.module('onshoretvApp')
               }
           }, 500);
       });
+      var time = 20000;
       $http.get('api/employees/1').success(function (data) {
           var k = 0;
           x(k)
@@ -36,13 +37,18 @@ angular.module('onshoretvApp')
                   );
               }
           }
-          var a = Math.floor((Math.random() * 19) + 1)
-          var time = (1000+((data.length) * (6000)))
-          window.setTimeout(function () { window.location.replace("http://localhost:63705/#/view/" + parseInt(a)) }, time);
-          timedRefresh(300000);
-          function timedRefresh(timeoutPeriod) {
-              setTimeout("location.reload(true);", timeoutPeriod);
-          }
+          
+          time = (1000 + ((data.length) * (6000)))
+       
       });
+      $http.get('api/pages/1').success(function (data) {
+
+          var b = data;
+          window.setTimeout(function () { window.location.replace("http://localhost:63705/#/view/" + parseInt(b)) }, time);
+      });
+      timedRefresh(300000);
+      function timedRefresh(timeoutPeriod) {
+          setTimeout("location.reload(true);", timeoutPeriod);
+      }
       
   });
