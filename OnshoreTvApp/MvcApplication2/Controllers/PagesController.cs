@@ -33,7 +33,7 @@ namespace MvcApplication2.Controllers
             bool allViewed = true;
             while (open == false)
             {
-                int randomNumber = random.Next(0, 22);
+                int randomNumber = random.Next(0, 20);
                 Page pages = db.Pages.Find(randomNumber);
                 if (pages == null)
                 {
