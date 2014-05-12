@@ -1,0 +1,79 @@
+body {
+    background: url('../images/onshorebg.jpg') center top;
+    background-size: cover;
+}
+
+#title {
+    font-family: "Oswald";
+    font-size: 65px;
+    color: white;
+    text-align: center;
+    opacity: 1;
+
+}
+
+#sc {
+    float: left;
+    width: 75%;
+}
+
+#st {
+    float: right;
+    width: 25%;
+}
+
+#scContainer {
+    width: 68%;
+    margin: auto;
+}
+
+.bio {
+    height: 600px;
+}
+
+#shane {
+    float: left;
+    width: 100%;
+	margin: auto;
+	font-family: "Open Sans";
+	font-weight: 600;
+	text-align: left;
+}
+
+#chuck {
+    float: right;
+}
+#shanepic{
+     width: 375px;
+     height: 250px;
+
+}
+.bio-short {
+    height: 250px;
+    width: 231px;
+    padding: 10px;
+    border: 1px solid rgba(225,225,255,0.1);
+    margin: auto;
+}
+
+.name {
+    font-family: "Oswald";
+    font-size: 35px;
+    color: white;
+    text-decoration:underline;
+}
+
+.title {
+    font-family: "Open Sans";
+}
+
+.about {
+    float: left;
+    width: 100%;
+    font-size: 30px;
+ 	margin: auto;
+    color: white;
+	font-family: "Open Sans";
+	font-weight: 600;
+    padding: 0px 10px 0px 10px;
+}

@@ -1,0 +1,32 @@
+﻿body {
+	 background-color:#336600;
+}
+
+.container img {
+	display: block;
+	margin: auto;
+}
+
+#welcomeStart, #welcomeEnd {
+	font-family: "Kaushan Script";
+	font-size: 50px;
+	text-align: center;
+    margin-top:15px;
+    color: rgb(248, 244, 218)
+}
+
+#teamType {
+	font-family: "Open Sans";
+	font-size: 35px;
+	font-weight: bold;
+	text-decoration: underline;
+	text-align: center;
+}
+
+#names {
+	width: 60%;
+	margin: auto;
+	font-family: "Open Sans";
+	font-weight: 600;
+	text-align: left;
+}

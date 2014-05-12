@@ -1,0 +1,32 @@
+﻿$('#Stacy')
+    .css('position', 'absolute')
+    .css('top', '110px')
+    .css('left', '50px')
+    .fadeTo(3000, 1);
+$('#Heather')
+    .delay(2000)
+    .css('position', 'absolute')
+    .css('top', '135px')
+    .css('right', '25px')
+    .fadeTo(3000, 1);
+$('#Chelsea')
+    .hide()
+    .css('position', 'absolute')
+    .css('top', '600px')
+    .css('left', '250px')
+    .delay(4000)
+    .fadeTo(3000, 1);
+$('#Brandon')
+    .hide()
+    .css('position', 'absolute')
+    .css('top', '600px')
+    .css('right', '250px')
+    .delay(5000)
+    .fadeTo(3000, 1);
+$('#Travis')
+    .hide()
+    .css('position', 'absolute')
+    .css('top', '300px')
+    .css('right', '700px')
+    .delay(5000)
+    .fadeTo(3000, 1);

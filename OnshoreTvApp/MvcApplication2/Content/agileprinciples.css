@@ -1,0 +1,38 @@
+body{
+	background: URL("../images/blackboard.jpg") no-repeat;
+	background-size: cover;
+	font-family: schoolbell;
+	color: #FFFFFF;
+}
+
+.subject	{
+	padding-top: 125px;
+	font-size: 42px;
+    text-align:center;
+}
+
+#term{
+	margin-top: 75px;
+}
+
+#definition{
+	margin-top: 60px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 75%;
+}
+
+.content{
+	font-size: 35px;
+	padding-left: 150px;
+}
+
+ol{
+	margin-left: auto;
+	margin-right: auto;
+	width: 1000px;
+}
+
+li{
+	text-align: left;
+}
