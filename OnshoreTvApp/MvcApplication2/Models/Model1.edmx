@@ -4,12 +4,13 @@
   <edmx:Runtime>
     <!-- SSDL content -->
     <edmx:StorageModels>
-      <Schema Namespace="OnshoreModel.Store" Alias="Self" Provider="System.Data.SqlClient" ProviderManifestToken="2008" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+    <Schema Namespace="OnshoreModel.Store" Alias="Self" Provider="System.Data.SqlClient" ProviderManifestToken="2008" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
         <EntityContainer Name="OnshoreModelStoreContainer">
           <EntitySet Name="Clients" EntityType="OnshoreModel.Store.Clients" store:Type="Tables" Schema="dbo" />
           <EntitySet Name="Employees" EntityType="OnshoreModel.Store.Employees" store:Type="Tables" Schema="dbo" />
           <EntitySet Name="Events" EntityType="OnshoreModel.Store.Events" store:Type="Tables" Schema="dbo" />
           <EntitySet Name="Pages" EntityType="OnshoreModel.Store.Pages" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="Seen" EntityType="OnshoreModel.Store.Seen" store:Type="Tables" Schema="dbo" />
         </EntityContainer>
         <EntityType Name="Clients">
           <Key>
@@ -45,8 +46,14 @@
           <Property Name="Id" Type="int" Nullable="false" />
           <Property Name="Viewed" Type="smallint" />
         </EntityType>
-      </Schema>
-    </edmx:StorageModels>
+        <EntityType Name="Seen">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="int" Nullable="false" />
+          <Property Name="seen" Type="int" />
+        </EntityType>
+      </Schema></edmx:StorageModels>
     <!-- CSDL content -->
     <edmx:ConceptualModels>
       <Schema Namespace="OnshoreModel" Alias="Self" p1:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:p1="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
@@ -55,6 +62,7 @@
           <EntitySet Name="Employees" EntityType="OnshoreModel.Employee" />
           <EntitySet Name="Events" EntityType="OnshoreModel.Event" />
           <EntitySet Name="Pages" EntityType="OnshoreModel.Page" />
+          <EntitySet Name="Seens" EntityType="OnshoreModel.Seen" />
         </EntityContainer>
         <EntityType Name="Client">
           <Key>
@@ -89,6 +97,13 @@
           </Key>
           <Property Name="Id" Type="Int32" Nullable="false" />
           <Property Name="Viewed" Type="Int16" />
+        </EntityType>
+        <EntityType Name="Seen">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Type="Int32" Name="Id" Nullable="false" />
+          <Property Type="Int32" Name="seen1" />
         </EntityType>
       </Schema>
     </edmx:ConceptualModels>
@@ -131,6 +146,14 @@
               <MappingFragment StoreEntitySet="Pages">
                 <ScalarProperty Name="Id" ColumnName="Id" />
                 <ScalarProperty Name="Viewed" ColumnName="Viewed" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Seens">
+            <EntityTypeMapping TypeName="OnshoreModel.Seen">
+              <MappingFragment StoreEntitySet="Seen">
+                <ScalarProperty Name="seen1" ColumnName="seen" />
+                <ScalarProperty Name="Id" ColumnName="Id" />
               </MappingFragment>
             </EntityTypeMapping>
           </EntitySetMapping>

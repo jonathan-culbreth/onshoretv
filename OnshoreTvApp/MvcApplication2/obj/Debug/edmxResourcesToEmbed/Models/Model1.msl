@@ -39,5 +39,13 @@
         </MappingFragment>
       </EntityTypeMapping>
     </EntitySetMapping>
+    <EntitySetMapping Name="Seens">
+      <EntityTypeMapping TypeName="OnshoreModel.Seen">
+        <MappingFragment StoreEntitySet="Seen">
+          <ScalarProperty Name="seen1" ColumnName="seen" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
   </EntityContainerMapping>
 </Mapping>

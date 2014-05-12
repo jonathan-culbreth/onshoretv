@@ -13,10 +13,10 @@ namespace MvcApplication2.Models
     using System.Data.Entity;
     using System.Data.Entity.Infrastructure;
     
-    public partial class OnshoreEntities3 : DbContext
+    public partial class DatabaseEntities4 : DbContext
     {
-        public OnshoreEntities3()
-            : base("name=OnshoreEntities3")
+        public DatabaseEntities4()
+            : base("name=DatabaseEntities4")
         {
         }
     
@@ -25,10 +25,5 @@ namespace MvcApplication2.Models
             throw new UnintentionalCodeFirstException();
         }
     
-        public DbSet<Client> Clients { get; set; }
-        public DbSet<Employee> Employees { get; set; }
-        public DbSet<Event> Events { get; set; }
-        public DbSet<Page> Pages { get; set; }
-        public DbSet<Seen> Seens { get; set; }
     }
 }

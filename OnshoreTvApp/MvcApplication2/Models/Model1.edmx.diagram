@@ -9,6 +9,7 @@
         <EntityTypeShape EntityType="OnshoreModel.Employee" Width="1.5" PointX="2.75" PointY="0.75" IsExpanded="true" />
         <EntityTypeShape EntityType="OnshoreModel.Event" Width="1.5" PointX="0.75" PointY="3.75" IsExpanded="true" />
         <EntityTypeShape EntityType="OnshoreModel.Page" Width="1.5" PointX="2.75" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="OnshoreModel.Seen" Width="1.5" PointX="11.989874426270777" PointY="20.218295687911237" />
       </Diagram>
     </edmx:Diagrams>
   </edmx:Designer>

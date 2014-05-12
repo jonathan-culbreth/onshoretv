@@ -61,7 +61,7 @@ angular.module('onshoretvApp', [
          controller: 'DefaultCtrl'
      })
         .when('/view/13', {
-            templateUrl: 'static/practiceManagersMO.html',
+            templateUrl: 'static/david.html',
             controller: 'DefaultCtrl'
         })
         .when('/view/14', {
@@ -88,14 +88,6 @@ angular.module('onshoretvApp', [
                  templateUrl: 'static/purpose.html',
                  controller: 'DefaultCtrl'
              })
-          .when('/view/20', {
-              templateUrl: 'static/BiLo.html',
-              controller: 'DefaultCtrl'
-          })
-          .when('/view/21', {
-              templateUrl: 'static/SweetOnion.html',
-              controller: 'DefaultCtrl'
-          })
       .otherwise({
         redirectTo: '/'
       });

@@ -5,6 +5,7 @@
     <EntitySet Name="Employees" EntityType="OnshoreModel.Employee" />
     <EntitySet Name="Events" EntityType="OnshoreModel.Event" />
     <EntitySet Name="Pages" EntityType="OnshoreModel.Page" />
+    <EntitySet Name="Seens" EntityType="OnshoreModel.Seen" />
   </EntityContainer>
   <EntityType Name="Client">
     <Key>
@@ -39,5 +40,12 @@
     </Key>
     <Property Name="Id" Type="Int32" Nullable="false" />
     <Property Name="Viewed" Type="Int16" />
+  </EntityType>
+  <EntityType Name="Seen">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Type="Int32" Name="Id" Nullable="false" />
+    <Property Type="Int32" Name="seen1" />
   </EntityType>
 </Schema>

@@ -5,6 +5,7 @@
     <EntitySet Name="Employees" EntityType="OnshoreModel.Store.Employees" store:Type="Tables" Schema="dbo" />
     <EntitySet Name="Events" EntityType="OnshoreModel.Store.Events" store:Type="Tables" Schema="dbo" />
     <EntitySet Name="Pages" EntityType="OnshoreModel.Store.Pages" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="Seen" EntityType="OnshoreModel.Store.Seen" store:Type="Tables" Schema="dbo" />
   </EntityContainer>
   <EntityType Name="Clients">
     <Key>
@@ -39,5 +40,12 @@
     </Key>
     <Property Name="Id" Type="int" Nullable="false" />
     <Property Name="Viewed" Type="smallint" />
+  </EntityType>
+  <EntityType Name="Seen">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" Nullable="false" />
+    <Property Name="seen" Type="int" />
   </EntityType>
 </Schema>
