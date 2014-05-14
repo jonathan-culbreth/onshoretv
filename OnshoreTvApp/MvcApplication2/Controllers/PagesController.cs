@@ -34,7 +34,7 @@ namespace MvcApplication2.Controllers
             while (open == false)
             {
 
-                int randomNumber = random.Next(1, 17);
+                int randomNumber = random.Next(1, 18);
                 Page pages = db.Pages.Find(randomNumber);
                 if (pages == null)
                 {
@@ -48,7 +48,7 @@ namespace MvcApplication2.Controllers
                     open = true;
                     allViewed = false;
                 }
-                if (i > 10000)
+                if (i > 100000)
                 {
                     break;
                 }
@@ -71,7 +71,7 @@ namespace MvcApplication2.Controllers
                     i++;
                 }
                 db.SaveChanges();
-
+                page = 0;
             }
             return page;
         }

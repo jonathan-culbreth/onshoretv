@@ -37,7 +37,7 @@ angular.module('onshoretvApp', [
          controller: 'DefaultCtrl'
      })
      .when('/view/7', {
-         templateUrl: 'static/main2.html',
+         templateUrl: 'static/main.html',
          controller: 'DefaultCtrl'
      })
      .when('/view/8', {
@@ -73,21 +73,13 @@ angular.module('onshoretvApp', [
             controller: 'DefaultCtrl'
         })
         .when('/view/16', {
-            templateUrl: 'static/main.html',
+            templateUrl: 'static/missionStatement.html',
             controller: 'DefaultCtrl'
         })
         .when('/view/17', {
             templateUrl: 'static/AltantaOffice.html',
             controller: 'DefaultCtrl'
         })
-        .when('/view/18', {
-            templateUrl: 'static/missionStatement.html',
-            controller: 'DefaultCtrl'
-        })
-             .when('/view/19', {
-                 templateUrl: 'static/purpose.html',
-                 controller: 'DefaultCtrl'
-             })
       .otherwise({
         redirectTo: '/'
       });

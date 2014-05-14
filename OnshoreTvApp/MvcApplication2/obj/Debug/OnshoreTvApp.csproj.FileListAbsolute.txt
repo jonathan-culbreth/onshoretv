@@ -140,3 +140,4 @@ C:\Users\Admin\onshoretv\OnshoreTvApp\MvcApplication2\obj\Debug\MvcApplication2.
 C:\Users\Admin\onshoretv\OnshoreTvApp\MvcApplication2\obj\Debug\MvcApplication2.pdb
 C:\Users\Admin\onshoretv\OnshoreTvApp\MvcApplication2\bin\App_Data\Onshore.mdf
 C:\Users\Admin\onshoretv\OnshoreTvApp\MvcApplication2\bin\App_Data\Onshore_log.ldf
+C:\Users\admin\onshoretv\OnshoreTvApp\MvcApplication2\bin\MvcApplication2.dll.config
