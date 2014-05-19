@@ -13,7 +13,7 @@ angular.module('onshoretvApp', [
           controller: 'DefaultCtrl'
       })
       .when('/view/1', {
-          templateUrl: 'static/agilePrinciples.html',
+          templateUrl: 'static/welcomeSlide.html',
           controller: 'DefaultCtrl'
       })
       .when('/view/2', {
@@ -53,7 +53,7 @@ angular.module('onshoretvApp', [
          controller: 'DefaultCtrl'
      })
      .when('/view/11', {
-         templateUrl: 'static/purpose.html',
+         templateUrl: 'static/welcomeSlide.html',
          controller: 'DefaultCtrl'
       })
      .when('/view/12', {
@@ -79,6 +79,18 @@ angular.module('onshoretvApp', [
         .when('/view/17', {
             templateUrl: 'static/AltantaOffice.html',
             controller: 'DefaultCtrl'
+        })
+         .when('/view/18', {
+             templateUrl: 'static/welcomeSlide.html',
+             controller: 'DefaultCtrl'
+         })
+         .when('/view/19', {
+             templateUrl: 'static/purpose.html',
+             controller: 'BootCampCtrl'
+         })
+        .when('/view/20', {
+            templateUrl: 'static/agilePrinciples.html',
+            controller: 'BootCampCtrl'
         })
       .otherwise({
         redirectTo: '/'
