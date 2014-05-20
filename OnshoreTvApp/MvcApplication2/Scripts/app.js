@@ -86,12 +86,29 @@ angular.module('onshoretvApp', [
          })
          .when('/view/19', {
              templateUrl: 'static/purpose.html',
-             controller: 'BootCampCtrl'
+             controller: 'DefaultCtrl'
          })
         .when('/view/20', {
             templateUrl: 'static/agilePrinciples.html',
-            controller: 'BootCampCtrl'
+            controller: 'DefaultCtrl'
         })
+          .when('/view/21', {
+              templateUrl: 'static/BiLo.html',
+              controller: 'DefaultCtrl'
+          })
+          .when('/view/22', {
+              templateUrl: 'static/BiLo.html',
+              controller: 'DefaultCtrl'
+          })
+          .when('/view/23', {
+              templateUrl: 'static/BiLo.html',
+              controller: 'DefaultCtrl'
+          })
+          .when('/view/24', {
+              templateUrl: 'static/newJLL2.html',
+              controller: 'DefaultCtrl'
+          })
+
       .otherwise({
         redirectTo: '/'
       });
