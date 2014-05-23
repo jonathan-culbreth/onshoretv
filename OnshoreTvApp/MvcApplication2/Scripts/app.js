@@ -12,10 +12,10 @@ angular.module('onshoretvApp', [
           templateUrl: 'static/main2.html',
           controller: 'DefaultCtrl'
       })
-      .when('/view/1', {
-          templateUrl: 'static/welcomeSlide.html',
-          controller: 'DefaultCtrl'
-      })
+       .when('/view/1', {
+           templateUrl: 'static/bootCamp.html',
+           controller: 'BootCampCtrl'
+       })
       .when('/view/2', {
           templateUrl: 'static/birthdays.html',
           controller: 'BirthDayCtrl'
@@ -53,9 +53,9 @@ angular.module('onshoretvApp', [
          controller: 'DefaultCtrl'
      })
      .when('/view/11', {
-         templateUrl: 'static/welcomeSlide.html',
+         templateUrl: 'static/newJLL2.html',
          controller: 'DefaultCtrl'
-      })
+     })
      .when('/view/12', {
          templateUrl: 'static/howWeDoIt.html',
          controller: 'DefaultCtrl'
@@ -91,24 +91,7 @@ angular.module('onshoretvApp', [
         .when('/view/20', {
             templateUrl: 'static/agilePrinciples.html',
             controller: 'DefaultCtrl'
-        })
-          .when('/view/21', {
-              templateUrl: 'static/BiLo.html',
-              controller: 'DefaultCtrl'
-          })
-          .when('/view/22', {
-              templateUrl: 'static/BiLo.html',
-              controller: 'DefaultCtrl'
-          })
-          .when('/view/23', {
-              templateUrl: 'static/BiLo.html',
-              controller: 'DefaultCtrl'
-          })
-          .when('/view/24', {
-              templateUrl: 'static/newJLL2.html',
-              controller: 'DefaultCtrl'
-          })
-
+        })    
       .otherwise({
         redirectTo: '/'
       });
