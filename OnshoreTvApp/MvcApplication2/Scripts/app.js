@@ -91,7 +91,15 @@ angular.module('onshoretvApp', [
         .when('/view/20', {
             templateUrl: 'static/agilePrinciples.html',
             controller: 'DefaultCtrl'
-        })    
+        })
+        .when('/view/21', {
+            templateUrl: 'static/anniversaries.html',
+            controller: 'HireDateCtrl'
+        })
+        .when('/view/22', {
+            templateUrl: 'static/welcomeScott.html',
+            controller: 'DefaultCtrl'
+        })
       .otherwise({
         redirectTo: '/'
       });

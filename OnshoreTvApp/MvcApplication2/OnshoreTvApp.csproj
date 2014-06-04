@@ -151,6 +151,7 @@
     <Compile Include="Controllers\ClientPagesController.cs" />
     <Compile Include="Controllers\Default1Controller.cs" />
     <Compile Include="Controllers\EmployeesController.cs" />
+    <Compile Include="Controllers\HireDatesController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\PagesController.cs" />
     <Compile Include="Controllers\SeenController.cs" />
@@ -321,6 +322,7 @@
     <Content Include="static\glennvilleOffice.html" />
     <Content Include="static\howWeDoIt.html" />
     <Content Include="static\david.html" />
+    <Content Include="static\anniversaries.html" />
     <Content Include="static\index.html" />
     <Content Include="static\JLLwelcome.html" />
     <Content Include="static\missionStatement.html" />
@@ -336,6 +338,7 @@
     <Content Include="static\success.html" />
     <Content Include="static\SweetOnion.html" />
     <Content Include="static\ticker.html" />
+    <Content Include="static\welcomeScott.html" />
     <Content Include="static\whatWeAre.html" />
     <Content Include="static\whatWeDo.html" />
     <Content Include="static\xmasparty.html" />
