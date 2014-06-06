@@ -81,7 +81,7 @@ angular.module('onshoretvApp', [
             controller: 'DefaultCtrl'
         })
          .when('/view/18', {
-             templateUrl: 'static/welcomeSlide.html',
+             templateUrl: 'static/welcomeScott.html',
              controller: 'DefaultCtrl'
          })
          .when('/view/19', {
@@ -97,7 +97,7 @@ angular.module('onshoretvApp', [
             controller: 'HireDateCtrl'
         })
         .when('/view/22', {
-            templateUrl: 'static/welcomeScott.html',
+            templateUrl: 'static/scott.html',
             controller: 'DefaultCtrl'
         })
       .otherwise({
