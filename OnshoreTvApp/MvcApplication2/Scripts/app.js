@@ -100,6 +100,22 @@ angular.module('onshoretvApp', [
             templateUrl: 'static/scott.html',
             controller: 'DefaultCtrl'
         })
+         .when('/view/23', {
+             templateUrl: 'static/Bilo.html',
+             controller: 'DefaultCtrl'
+         })
+         .when('/view/24', {
+             templateUrl: 'static/Bilo.html',
+             controller: 'DefaultCtrl'
+         })
+         .when('/view/25', {
+             templateUrl: 'static/Bilo.html',
+             controller: 'DefaultCtrl'
+         })
+         .when('/view/26', {
+             templateUrl: 'static/Bilo.html',
+             controller: 'DefaultCtrl'
+         })
       .otherwise({
         redirectTo: '/'
       });
