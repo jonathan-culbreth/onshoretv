@@ -59,34 +59,39 @@ angular.module('onshoretvApp')
           .fadeTo(3000,0) ; }, 54000)
        window.setTimeout(function () {$("#names")
           .hide()
-          .text(" DeWayne Coleman")
-          .fadeTo(3000,1)
-          .fadeTo(3000,0) ; }, 60000)
-       window.setTimeout(function () {$("#names")
-          .hide()
           .text("Christopher Gallegos")
           .fadeTo(3000,1)
-          .fadeTo(3000,0) ; }, 66000)
+          .fadeTo(3000,0) ; }, 60000)
        window.setTimeout(function () {$("#names")
          .hide()
          .text(" Wayne Warner")
          .fadeTo(3000,1)
-         .fadeTo(3000,0) ; }, 72000)
+         .fadeTo(3000,0) ; }, 66000)
       window.setTimeout(function () {$("#names")
          .hide()
          .text(" Aleris Roman-LaSalle")
          .fadeTo(3000,1)
-         .fadeTo(3000,0) ; }, 78000)
+         .fadeTo(3000,0) ; }, 72000)
       window.setTimeout(function () {$("#names")
          .hide()
          .text(" Josue Roman-LaSalle")
          .fadeTo(3000,1)
          .fadeTo(3000, 0);
-      }, 84000)
-      $http.get('api/pages/1').success(function (data) {
+      }, 78000)
+      $http.get('api/seen/1').success(function (data) {
 
           var b = data;
-          window.setTimeout(function () { window.location.replace("http://localhost:63705/#/view/" + parseInt(b)) }, 90000);
+          if (b == 1) {
+              setTimeout("location.reload(true);", 0);
+          }
+          else {
+              $http.get('api/pages/1').success(function (data) {
+
+                  var b = data;
+                  window.setTimeout(function () { window.location.replace("http://localhost:63705/#/view/" + parseInt(b)) }, 84000);
+              });
+          }
+
       });
       timedRefresh(300000);
       function timedRefresh(timeoutPeriod) {

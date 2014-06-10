@@ -23,7 +23,7 @@ angular.module('onshoretvApp')
           }, 500);
       });
       var time = 0;
-      $http.get('api/hiredates/5').success(function (data) {
+      $http.get('api/employees/5').success(function (data) {
           var k = 0;
           x(k)
           function x(k) {

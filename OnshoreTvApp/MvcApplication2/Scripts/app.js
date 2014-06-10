@@ -116,6 +116,10 @@ angular.module('onshoretvApp', [
              templateUrl: 'static/Bilo.html',
              controller: 'DefaultCtrl'
          })
+           .when('/view/27', {
+               templateUrl: 'static/newPanera.html',
+               controller: 'DefaultCtrl'
+           })
       .otherwise({
         redirectTo: '/'
       });
