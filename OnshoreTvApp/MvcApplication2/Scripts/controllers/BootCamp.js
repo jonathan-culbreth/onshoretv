@@ -4,7 +4,7 @@ angular.module('onshoretvApp')
   .controller('BootCampCtrl', function ($scope, $http) {
       $("#names")
          .hide()
-         .text("  Malika Quintero")
+         .text("Aleris Roman-LaSalle")
          .fadeTo(3000,1)
          .fadeTo(3000,0) ;
       window.setTimeout(function () {
@@ -43,7 +43,7 @@ angular.module('onshoretvApp')
           .fadeTo(3000,0) ;},36000)
     window.setTimeout(function () {$("#names")
           .hide()
-          .text("Kimberly Gaston")
+          .text("Josue Roman-LaSalle")
           .fadeTo(3000,1)
           .fadeTo(3000,0) ;},42000)
      window.setTimeout(function () {$("#names")
@@ -67,17 +67,7 @@ angular.module('onshoretvApp')
          .text(" Wayne Warner")
          .fadeTo(3000,1)
          .fadeTo(3000,0) ; }, 66000)
-      window.setTimeout(function () {$("#names")
-         .hide()
-         .text(" Aleris Roman-LaSalle")
-         .fadeTo(3000,1)
-         .fadeTo(3000,0) ; }, 72000)
-      window.setTimeout(function () {$("#names")
-         .hide()
-         .text(" Josue Roman-LaSalle")
-         .fadeTo(3000,1)
-         .fadeTo(3000, 0);
-      }, 78000)
+   
       $http.get('api/seen/1').success(function (data) {
 
           var b = data;
@@ -88,7 +78,7 @@ angular.module('onshoretvApp')
               $http.get('api/pages/1').success(function (data) {
 
                   var b = data;
-                  window.setTimeout(function () { window.location.replace("http://localhost:63705/#/view/" + parseInt(b)) }, 84000);
+                  window.setTimeout(function () { window.location.replace("http://localhost:63705/#/view/" + parseInt(b)) }, 72000);
               });
           }
 

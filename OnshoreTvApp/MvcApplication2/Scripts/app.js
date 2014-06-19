@@ -104,19 +104,7 @@ angular.module('onshoretvApp', [
              templateUrl: 'static/Bilo.html',
              controller: 'DefaultCtrl'
          })
-         .when('/view/24', {
-             templateUrl: 'static/Bilo.html',
-             controller: 'DefaultCtrl'
-         })
-         .when('/view/25', {
-             templateUrl: 'static/Bilo.html',
-             controller: 'DefaultCtrl'
-         })
-         .when('/view/26', {
-             templateUrl: 'static/Bilo.html',
-             controller: 'DefaultCtrl'
-         })
-           .when('/view/27', {
+           .when('/view/24', {
                templateUrl: 'static/newPanera.html',
                controller: 'DefaultCtrl'
            })
