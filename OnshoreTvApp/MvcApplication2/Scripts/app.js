@@ -100,15 +100,15 @@ angular.module('onshoretvApp', [
             templateUrl: 'static/scott.html',
             controller: 'DefaultCtrl'
         })
-// pages not in current runthough begin here
          .when('/view/23', {
-             templateUrl: 'static/Bilo.html',
-             controller: 'DefaultCtrl'
-         })
-         .when('/view/24', {
              templateUrl: 'static/welcomeScott.html',
              controller: 'DefaultCtrl'
          })
+// pages not in current runthough begin here
+         //.when('/view/23', {
+         //    templateUrl: 'static/Bilo.html',
+         //    controller: 'DefaultCtrl'
+         //})
       .otherwise({
         redirectTo: '/'
       });

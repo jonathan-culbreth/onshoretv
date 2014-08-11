@@ -1,0 +1,46 @@
+﻿body {
+    background: url('../images/arrowsbg.png');
+    background-size: cover;
+}
+
+img {
+    display: block;
+}
+
+p {
+    text-align: center;
+}
+
+#hapannContainer {
+    width: 500px;
+    height: 152px;
+    margin: auto;
+}
+
+#hapann {
+    font-family: "Lily Script One", cursive;
+    font-size: 60px;
+    width: 500px;
+    text-align: left;
+}
+
+#hapann span {
+}
+
+#ribbonContainer {
+    height: 450px;
+    width: 297px;
+    margin: auto;
+    margin-top: -50px;
+    margin-bottom: -50px;
+}
+
+#ribbon {
+    height: 450px;
+    display: none;
+}
+
+#name {
+    font-family: "Lily Script One", cursive;
+    font-size: 60px;
+}
