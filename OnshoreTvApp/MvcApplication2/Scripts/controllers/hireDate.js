@@ -2,7 +2,25 @@
 
 angular.module('onshoretvApp')
   .controller('HireDateCtrl', function ($scope, $http) {
+       $('#ribbon').fadeIn(2500, function () {
+          $(this).css('display', 'block');
+      });
 
+      $(function () {
+          var dest = $('#hapann');
+          dest.append("Happy Anniversary!");
+          dest.circleType({ radius: 180, fluid: true });
+          var q = $('span[class^=char]').css('opacity', '.001').toArray();
+          var c = 0;
+          var i = setInterval(function () {
+              
+              $(q[c]).fadeTo('slow', 1);
+              c += 1;
+              if (c >= q.length) {
+                  clearInterval(i);
+              }
+          }, 500);
+      });
      
       var time = 0;
       $http.get('api/hiredates/5').success(function (data) {

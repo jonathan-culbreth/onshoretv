@@ -13,8 +13,8 @@ angular.module('onshoretvApp', [
           controller: 'DefaultCtrl'
       })
        .when('/view/1', {
-           templateUrl: 'static/bootCamp.html',
-           controller: 'BootCampCtrl'
+           templateUrl: 'static/panera.html',
+           controller: 'DefaultCtrl'
        })
       .when('/view/2', {
           templateUrl: 'static/birthdays.html',
@@ -53,7 +53,7 @@ angular.module('onshoretvApp', [
          controller: 'DefaultCtrl'
      })
      .when('/view/11', {
-         templateUrl: 'static/newJLL2.html',
+         templateUrl: 'static/newJLL.html',
          controller: 'DefaultCtrl'
      })
      .when('/view/12', {
@@ -81,15 +81,15 @@ angular.module('onshoretvApp', [
             controller: 'DefaultCtrl'
         })
          .when('/view/18', {
-             templateUrl: 'static/welcomeScott.html',
-             controller: 'DefaultCtrl'
-         })
-         .when('/view/19', {
              templateUrl: 'static/purpose.html',
              controller: 'DefaultCtrl'
          })
-        .when('/view/20', {
+        .when('/view/19', {
             templateUrl: 'static/agilePrinciples.html',
+            controller: 'DefaultCtrl'
+        })
+        .when('/view/20', {
+            templateUrl: 'static/newPanera.html',
             controller: 'DefaultCtrl'
         })
         .when('/view/21', {
@@ -100,14 +100,15 @@ angular.module('onshoretvApp', [
             templateUrl: 'static/scott.html',
             controller: 'DefaultCtrl'
         })
+// pages not in current runthough begin here
          .when('/view/23', {
              templateUrl: 'static/Bilo.html',
              controller: 'DefaultCtrl'
          })
-           .when('/view/24', {
-               templateUrl: 'static/newPanera.html',
-               controller: 'DefaultCtrl'
-           })
+         .when('/view/24', {
+             templateUrl: 'static/welcomeScott.html',
+             controller: 'DefaultCtrl'
+         })
       .otherwise({
         redirectTo: '/'
       });

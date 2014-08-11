@@ -39,9 +39,9 @@ namespace MvcApplication2.Controllers
                 }
                 DateTime DOB = Convert.ToDateTime(employee.Date_of_Birth_.ToString());
 
-                if (DOB.ToString("MMM") == today.ToString("MMM"))
+                if (DOB.ToString("MMMM") == today.ToString("MMMM"))
                 {
-                    names.Add(employee.Name + "  " + DOB.ToString("MMM, d"));
+                    names.Add(employee.Name + "... " + DOB.ToString("MMMM d"));
                     k++;
                 }
                 i++;

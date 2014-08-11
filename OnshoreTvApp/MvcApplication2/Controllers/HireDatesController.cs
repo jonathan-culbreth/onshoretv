@@ -38,16 +38,16 @@ namespace MvcApplication2.Controllers
                 }
                 DateTime DOB = Convert.ToDateTime(employee.Hire_Date.ToString());
 
-                if ((DOB.ToString("MMM") == today.ToString("MMM")) && (today.ToString("yyyy")!=(DOB.ToString("yyyy"))))
+                if ((DOB.ToString("MMMM") == today.ToString("MMMM")) && (today.ToString("yyyy")!=(DOB.ToString("yyyy"))))
                 {
                     int years = Convert.ToInt32(today.ToString("yyyy")) - Convert.ToInt32(DOB.ToString("yyyy"));
                     if (years == 1)
                     {
-                        names.Add(employee.Name + "  " + DOB.ToString("MMM, d") + "   " + years + "year");
+                        names.Add(employee.Name + "... " + DOB.ToString("MMMM d") + "\r\n(" + years + " year)");
                     }
                     else
                     {
-                        names.Add(employee.Name + "  " + DOB.ToString("MMM, d") + "   " + years + "years");
+                        names.Add(employee.Name + "... " + DOB.ToString("MMMM d") + "<br />(" + years + " years)");
                     }
                         k++;
                 }
