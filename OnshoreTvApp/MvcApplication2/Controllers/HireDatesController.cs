@@ -43,11 +43,11 @@ namespace MvcApplication2.Controllers
                     int years = Convert.ToInt32(today.ToString("yyyy")) - Convert.ToInt32(DOB.ToString("yyyy"));
                     if (years == 1)
                     {
-                        names.Add(employee.Name + "... " + DOB.ToString("MMMM d") + "\r\n(" + years + " year)");
+                        names.Add(employee.Name + "... " + DOB.ToString("MMMM d") + " (" + years + " year)");
                     }
                     else
                     {
-                        names.Add(employee.Name + "... " + DOB.ToString("MMMM d") + "<br />(" + years + " years)");
+                        names.Add(employee.Name + "... " + DOB.ToString("MMMM d") + " (" + years + " years)");
                     }
                         k++;
                 }
