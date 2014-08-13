@@ -10,7 +10,6 @@ html{
 .container img {
 	display: block;
 	margin: auto;
-    bottom: 15px;
 }
 
 #welcomeStart, #welcomeEnd {
