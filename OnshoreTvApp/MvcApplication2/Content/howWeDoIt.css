@@ -12,7 +12,7 @@
 }
 
 .desc {
-    width: 735px;
+    width: 745px;
     padding: 15px;
     background: white;
     font-family: "Open Sans", sans-serif;
@@ -24,7 +24,7 @@
 .info {
     margin-left:23%; 
     margin-top:-17%;
-    font-size:20px
+    font-size:23px;
 }
 .head {
     color:blue; 
