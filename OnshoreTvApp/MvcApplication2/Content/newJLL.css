@@ -3,10 +3,14 @@ body {
 	background-position: bottom;
 	background-size: 35%;
 }
+html{
+    height:100%;
+}
 
 .container img {
 	display: block;
 	margin: auto;
+    bottom: 15px;
 }
 
 #welcomeStart, #welcomeEnd {
