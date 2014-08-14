@@ -104,6 +104,18 @@ angular.module('onshoretvApp', [
              templateUrl: 'static/welcomeScott.html',
              controller: 'DefaultCtrl'
          })
+         .when('/view/24', {
+             templateUrl: 'static/agileprinciples2.html',
+             controller: 'DefaultCtrl'
+         })
+         .when('/view/25', {
+             templateUrl: 'static/agileprinciples3.html',
+             controller: 'DefaultCtrl'
+         })
+         .when('/view/26', {
+             templateUrl: 'static/agileprinciples4.html',
+             controller: 'DefaultCtrl'
+         })
 // pages not in current runthough begin here
          //.when('/view/23', {
          //    templateUrl: 'static/Bilo.html',

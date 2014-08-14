@@ -34,7 +34,7 @@ namespace MvcApplication2.Controllers
             while (open == false)
             {
 
-                int randomNumber = random.Next(1, 24);
+                int randomNumber = random.Next(1, 27);
                 Page pages = db.Pages.Find(randomNumber);
                 if (pages == null)
                 {

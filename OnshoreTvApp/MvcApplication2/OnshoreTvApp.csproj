@@ -315,6 +315,9 @@
     <Content Include="Scripts\modernizr-2.6.2.js" />
     <Content Include="Scripts\transition.js" />
     <Content Include="static\agileprinciples.html" />
+    <Content Include="static\agileprinciples2.html" />
+    <Content Include="static\agileprinciples3.html" />
+    <Content Include="static\agileprinciples4.html" />
     <Content Include="static\AltantaOffice.html" />
     <Content Include="static\BiLo.html" />
     <Content Include="static\birthday.html" />
