@@ -1,5 +1,5 @@
 body {
-    background: url('../images/basketbg.png');
+    background: url('../images/arrowsbg.png');
     background-size: cover;
 }
 
@@ -20,7 +20,7 @@ body {
     font-family: "Sail", cursive;
     font-size: 55px;
     text-shadow: 1px 1px 1px #000000, -1px -1px 1px #633d25;
-    color: white;
+    color: #000000;
     text-align: center;
     z-index: 2;
 }
@@ -47,7 +47,7 @@ body {
     position: relative;
     font-family: "Open Sans", sans-serif;
     font-size: 60px;
-    color: white;
+    color: #000000;
     text-align: center;
     line-height: 50px;
 }

@@ -13,7 +13,7 @@ angular.module('onshoretvApp', [
           controller: 'DefaultCtrl'
       })
        .when('/view/1', {
-           templateUrl: 'static/panera.html',
+           templateUrl: 'static/BiLo.html',
            controller: 'DefaultCtrl'
        })
       .when('/view/2', {
