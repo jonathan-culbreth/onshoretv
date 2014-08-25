@@ -1,0 +1,77 @@
+[[ Chuck ]]
+
+Known as a serial entrepreneur, Chuck has founded (or played a critical role in) a number of consulting businesses.
+
+He has been a keynote speaker for major business associations and has delivered customized presentations to Fortune 500 firms.
+
+Chuck has a Masters in Software Engineering from NJIT and Bachelor degrees in Computer Science and Engineering from Penn State.
+
+He resides in Roswell, GA with his wife Kimsey and their three daughters.
+
+[[ Shane ]]
+
+Shane is a Gulf War Veteran.
+
+Shane started Onshore to help people see beyond their current situation toward a better way of life.
+
+Shane makes his home in Macon, MO with his wife Lisa, and their three children.
+
+[[ Dave ]]
+
+Dave joined Onshore in December 2013 after spending over sixteen years with IBM.
+
+He was a client of Onshore for two years before joining the company. 
+
+He grew up in rural Minnesota and saw the impact of technology and offshore delivery.
+
+This motivated him to help with Onshore’s mission of revitalizing rural America.
+
+[[ Scott ]]
+
+Scott joined Onshore in May 2013 after nine years as a Director of IT with The Home Depot.
+
+Chuck provided contractor support to Scott for many years at THD.
+
+He has lived in large and medium towns across the South East his entire life and has seen first-hand the impact of jobs going offshore.
+
+This motivated him to help with Onshore’s mission of revitalizing rural America.
+
+[[ Onshore ]]
+
+Onshore's strength is its ability to create IT jobs in rural America, which has historically been "overshot" by the economic and social advances enabled by the IT economy.
+
+Onshore provides high quality, RURAL technology services at a price-point that is competitive to offshore providers.
+
+Onshore Technology Services which has grown to be a nationally recognized rural outsourcing firm that provides outsourcing and software development solutions.
+
+[[ Agile Principles ]]
+
+Customer satisfaction by rapid delivery of useful software
+
+Welcome changing requirements, even late in development
+
+Working software is delivered frequently (weeks rather than months)
+
+----------/ END SLIDE /----------
+
+Working software is the principal measure of progress
+
+Sustainable development, able to maintain a constant pace
+
+Close, daily cooperation between business people and developers
+
+----------/ END SLIDE /----------
+
+Face-to-face conversation is the best form of communication (co-location)
+
+Projects are built around motivated individuals, who should be trusted
+
+Continuous attention to technical excellence and good design
+
+----------/ END SLIDE /----------
+
+Simplicity—the art of maximizing the amount of work not done—is essential
+
+Self-organizing teams
+
+Regular adaptation to changing circumstances
